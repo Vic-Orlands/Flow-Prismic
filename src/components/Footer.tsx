@@ -11,7 +11,7 @@ export default async function Footer() {
     <footer>
       <Link href="/">{settings.data.site_title}</Link>
 
-      <p>
+      <p className="font-bold text-2xl">
         ©{new Date().getFullYear()} {settings.data.site_title}
       </p>
 
