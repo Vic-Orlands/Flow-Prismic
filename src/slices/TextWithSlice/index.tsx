@@ -35,7 +35,7 @@ const TextWithSlice = ({ slice }: TextWithSliceProps): JSX.Element => {
       data-slice-type={slice.slice_type}
       data-slice-variation={slice.variation}
     >
-      <div className="grid gap-8 md:grid-cols-2 place-items-center">
+      <div className="grid gap-8 gap-x-44 md:grid-cols-2 place-items-center">
         <PrismicNextImage
           field={slice.primary.image}
           className={clsx(

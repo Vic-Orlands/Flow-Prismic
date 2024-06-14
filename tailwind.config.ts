@@ -9,10 +9,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      // fontFamily: {
-      //   display: ["var(--font-nunito"],
-      //   body: ["var(--font-nunito-sans)"],
-      // },
+      fontFamily: {
+        display: ["var(--font-nunito)"],
+        body: ["var(--font-nunito-sans)"],
+      },
     },
   },
   plugins: [],

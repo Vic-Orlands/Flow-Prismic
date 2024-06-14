@@ -16,13 +16,13 @@ export default async function Footer() {
           <Logo />
         </Link>
 
-        <p className="text-xs">
+        <p className="text-xs text-slate-700">
           ©{new Date().getFullYear()} {settings.data.site_title}
         </p>
 
         <ul className="flex">
           {settings.data.navigation.map(({ label, link }) => (
-            <li key={label}>
+            <li key={label} className="text-slate-700">
               <PrismicNextLink field={link} className="p-3">
                 {label}
               </PrismicNextLink>

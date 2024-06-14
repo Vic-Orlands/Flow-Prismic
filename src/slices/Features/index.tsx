@@ -30,9 +30,9 @@ const components: JSXMapSerializer = {
 };
 
 const icons = {
-  calendar: <CalendarIcon />,
-  bargraph: <BargraphIcon />,
   clover: <CloverIcon />,
+  bargraph: <BargraphIcon />,
+  calendar: <CalendarIcon />,
   hourglass: <HourglassIcon />,
 };
 
