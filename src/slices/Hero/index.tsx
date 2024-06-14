@@ -1,5 +1,5 @@
 import { Content } from "@prismicio/client";
-import { PrismicNextImage, PrismicNextLink } from "@prismicio/next";
+import { PrismicNextImage } from "@prismicio/next";
 import {
   JSXMapSerializer,
   PrismicRichText,
